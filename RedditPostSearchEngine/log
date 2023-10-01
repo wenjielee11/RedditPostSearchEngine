@@ -1,0 +1,45 @@
+Script started on 2023-02-16 05:40:13+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="317" LINES="86"]
+[?2004h]0;wlee298@cs400vm1: ~/Project1_wleewlee298@cs400vm1:~/Project1_wlee$ git status
+[?2004lOn branch FrontendDeveloper
+Your branch is ahead of 'origin/FrontendDeveloper' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCHSearchBackendFD.class[m
+	[31mCHSearchBackendInterface.class[m
+	[31mCHSearchFrontendFD.class[m
+	[31mCHSearchFrontendInterface.class[m
+	[31mFrontendDeveloperTests.class[m
+	[31mHashtableWithDuplicateKeysInterface.class[m
+	[31mMapADT.class[m
+	[31mPostInterface.class[m
+	[31mPostReaderInterface.class[m
+	[31mTextUITester.class[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;wlee298@cs400vm1: ~/Project1_wleewlee298@cs400vm1:~/Project1_wlee$ git log -1
+[?2004l[?1h=[33mcommit 56b761546d6e73267573588ee3a53456b0336f35[m[33m ([m[1;36mHEAD -> [m[1;32mFrontendDeveloper[m[33m)[m[m
+Author: Wen Jie <wlee298@wisc.edu>[m
+Date:   Thu Feb 16 05:39:58 2023 +0000[m
+[m
+    Final final submission i think[m
+[K[?1l>[?2004h]0;wlee298@cs400vm1: ~/Project1_wleewlee298@cs400vm1:~/Project1_wlee$ rm -f *.class
+[?2004l[?2004h]0;wlee298@cs400vm1: ~/Project1_wleewlee298@cs400vm1:~/Project1_wlee$ ls
+[?2004lCHSearchBackendFD.java  CHSearchBackendInterface.java  CHSearchFrontendFD.java  CHSearchFrontendInterface.java  FrontendDeveloperTests.java  HashtableWithDuplicateKeysInterface.java  MapADT.java  PostInterface.java  PostReaderInterface.java  TextUITester.java  log  role.txt
+[?2004h]0;wlee298@cs400vm1: ~/Project1_wleewlee298@cs400vm1:~/Project1_wlee$ jh[Kavac *.java
+[?2004ljava [?2004h]0;wlee298@cs400vm1: ~/Project1_wleewlee298@cs400vm1:~/Project1_wlee$ java FrontendDeveloperTests [K.java
+[?2004ltest1: true
+test2: true
+test3: true
+test4: true
+test5: true
+[?2004h]0;wlee298@cs400vm1: ~/Project1_wleewlee298@cs400vm1:~/Project1_wlee$ exit
+[?2004lexit
+
+Script done on 2023-02-16 05:41:05+00:00 [COMMAND_EXIT_CODE="0"]
